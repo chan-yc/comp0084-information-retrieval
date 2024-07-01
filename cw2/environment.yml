@@ -1,0 +1,21 @@
+name: comp0084_cw2
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.11
+
+  # For Apple Silicon, see https://stackoverflow.com/a/70255105
+  # - blas=*=*accelerate*
+
+  - tqdm
+  - numpy
+  - jupyter
+  - pandas
+  - matplotlib
+  - nltk
+  - xgboost
+  - pytorch
+  - torchtext
