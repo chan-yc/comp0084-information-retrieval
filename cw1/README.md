@@ -21,3 +21,13 @@
 Requirement: `python=3.11`
 
     pip install -r requirements.txt
+
+## Execution Commands
+
+- A single can be executed by running the corresponding main `.py` script, e.g.
+
+      $ python task1.py
+
+- To run all the tasks, one can use
+
+      $ python task1.py; python task2.py; python task3.py; python task4.py;
